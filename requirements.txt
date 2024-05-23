@@ -1,0 +1,6 @@
+faker
+datetime
+pytest
+random
+sqlite3
+csv
