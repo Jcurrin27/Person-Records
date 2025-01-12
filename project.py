@@ -45,13 +45,13 @@ def main():
 
     # create and export student csv
     csvWriter = csv.writer(open("students.csv", "w"))
-    csvWriter.writerow(['name', 'address', 'personal_email', 'personal_phone', 'prgm_start_date', 'student_status'])
+    csvWriter.writerow(['id', 'name', 'address', 'personal_email', 'personal_phone', 'prgm_start_date', 'student_status'])
     for row in cursor.execute('SELECT * FROM students'):
         csvWriter.writerow(row)
 
     # create and export employee csv
     csvWriter = csv.writer(open("employees.csv", "w"))
-    csvWriter.writerow(['name', 'address', 'personal_email', 'personal_phone', 'hire_date', 'termination_date'])
+    csvWriter.writerow(['id', 'name', 'address', 'personal_email', 'personal_phone', 'hire_date', 'termination_date'])
     for row in cursor.execute('SELECT * FROM employees'):
         csvWriter.writerow(row)
 
