@@ -1,5 +1,4 @@
 # Person Records
-#### Video Demo:  https://youtu.be/1o1gsk9R8BM
 #### Introduction:
 This program asks the user to indicate whether they would like to simulate a 'very small' (111 people) university, or a 'small' (6000 people) university. Based on the user's response, the program creates fake person data and exports three csv files representing the database tables they are named after: students.csv, employees.csv, and person_final.csv. This demonstrates raw student and employee data and how they may be merged together in a final person record table to create a single record for each person affiliated with the unviersity. This final record can be shared with active directory systems to guide permissions for each user.
 
